@@ -15,9 +15,9 @@ install:
 	@mkdir -p $(prefix)/etc/pki
 	@mkdir -p $(prefix)/etc/pki/rpm-gpg
 	@install -m 0644 etc/indigodc-release $(prefix)/etc
-	@install -m 0644 etc/yum.repos.d/indigodc1-base.repo $(prefix)/etc/yum.repos.d
-	@install -m 0644 etc/yum.repos.d/indigodc1-updates.repo $(prefix)/etc/yum.repos.d
-	@install -m 0644 etc/yum.repos.d/indigodc1-third-party.repo $(prefix)/etc/yum.repos.d
+	@install -m 0644 etc/yum.repos.d/indigo1-base.repo $(prefix)/etc/yum.repos.d
+	@install -m 0644 etc/yum.repos.d/indigo1-updates.repo $(prefix)/etc/yum.repos.d
+	@install -m 0644 etc/yum.repos.d/indigo1-third-party.repo $(prefix)/etc/yum.repos.d
 	@install -m 0644 etc/pki/rpm-gpg/RPM-GPG-KEY-indigodc $(prefix)/etc/pki/rpm-gpg
 
 dist:
