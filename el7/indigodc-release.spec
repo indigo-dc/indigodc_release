@@ -40,11 +40,11 @@ if [ "$1" = "0" ]; then grep -q -e "indigodc-release" /etc/yum/pluginconf.d/prio
 
 /etc/indigodc-release
 /etc/pki/rpm-gpg/RPM-GPG-KEY-indigodc
-/etc/yum.repos.d/indigodc1-base.repo
-/etc/yum.repos.d/indigodc1-third-party.repo
+/etc/yum.repos.d/indigo1-base.repo
+/etc/yum.repos.d/indigo1-third-party.repo
 /etc/yum.repos.d/indigo1-updates.repo
 
 %changelog
-* Thu Mar 07 2016 Cristina Aiftimiei <aiftim@pd.infn.it>
+* Tue June 28 2016 Cristina Aiftimiei <aiftim@cnaf.infn.it>
 - TOADD TEXT
 
