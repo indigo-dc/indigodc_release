@@ -1,0 +1,4 @@
+Package: *
+Pin: release o=INDIGO-DC
+Pin-Priority: 950
+
