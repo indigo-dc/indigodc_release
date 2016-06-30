@@ -3,8 +3,8 @@ prefix=/
 
 # needed dirs
 debbuild_dir=$(shell pwd)/debbuild
-deb_version=3.0.0
-deb_age=2
+deb_version=4.0.0
+deb_age=1
 here=$(shell pwd)
 
 .PHONY: clean install deb

@@ -45,6 +45,6 @@ if [ "$1" = "0" ]; then grep -q -e "indigodc-release" /etc/yum/pluginconf.d/prio
 /etc/yum.repos.d/indigo1-updates.repo
 
 %changelog
-* Tue June 28 2016 Cristina Aiftimiei <aiftim@cnaf.infn.it>
+* Tue Jun 28 2016 Cristina Aiftimiei <aiftim@cnaf.infn.it>
 - TOADD TEXT
 
