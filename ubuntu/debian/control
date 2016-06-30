@@ -1,5 +1,5 @@
 Source:  indigodc-release
-Build-Depends:  debhelper (>> 9.0)
+Build-Depends:  debhelper
 Section:  devel
 Priority:  optional
 Maintainer:  Cristina Aiftimiei <aiftim@cnaf.infn.it>
