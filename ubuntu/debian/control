@@ -6,7 +6,7 @@ Maintainer:  Cristina Aiftimiei <aiftim@cnaf.infn.it>
 Standards-Version:  3.9.2
 
 Package:  indigodc-release
-Architecture:  all
+Architecture:  any
 Depends:   
 Description:  INDIGO - DataCloud  release repositories files
  contains indigodc-release version and protection configuration of the INDIGO - DataCloud repositories
