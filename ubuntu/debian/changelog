@@ -1,7 +1,7 @@
-indigodc-release (4.0.0-1) unstable; urgency=low
+indigodc-release (1.0.0-1) unstable; urgency=low
 
   * First release using dpkg-source 3.0 (quilt) format
 
- -- Cristina Aiftimiei <aiftim@cnaf.infn.it>  Tue, 28 June 2016 15:10:15 +0000
+ -- Cristina Aiftimiei <aiftim@cnaf.infn.it>  Sun, 31 July 2016 17:52:00 +0000
 
 
