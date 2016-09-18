@@ -3,7 +3,7 @@ prefix=/
 
 # needed dirs
 debbuild_dir=$(shell pwd)/debbuild
-deb_version=1.0.1
+deb_version=1.0.0
 deb_age=2
 here=$(shell pwd)
 

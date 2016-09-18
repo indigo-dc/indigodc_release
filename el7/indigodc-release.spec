@@ -1,6 +1,6 @@
 Name: indigodc-release
-Version: 1.0.1
-Release: 1%{?dist}
+Version: 1.0.0
+Release: 2%{?dist}
 Summary: INDIGO-1 (MidnightBlue) Release
 License: Apache Software License
 Source: %{name}-%{version}.src.tgz
