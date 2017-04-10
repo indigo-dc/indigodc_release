@@ -2,7 +2,7 @@ Source:  indigodc-release
 Build-Depends:  debhelper
 Section:  devel
 Priority:  optional
-Maintainer:  Cristina Aiftimiei <aiftim@cnaf.infn.it>
+Maintainer:  Cristina Duma <aiftim@cnaf.infn.it>
 Standards-Version:  3.9.2
 
 Package:  indigodc-release
