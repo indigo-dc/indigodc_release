@@ -1,9 +1,9 @@
-indigodc-release (1.0.0-2) unstable; urgency=low
+indigodc-release (2.0.0-\) unstable; urgency=low
 
   * Adding repository key
 
   * First release using dpkg-source 3.0 (quilt) format
 
- -- Cristina Aiftimiei <aiftim@cnaf.infn.it>  Sun, 18 Sep 2016 15:11:00 +0000
+ -- Cristina Duma <aiftim@cnaf.infn.it>  Tue, 11 Apr 2017 00:40:00 +0000
 
 
