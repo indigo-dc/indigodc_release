@@ -1,0 +1,7 @@
+indigodc-release (2.0.0-1) unstable; urgency=low
+
+  * First release using dpkg-source 3.0 (quilt) format
+
+ -- Cristina Duma <aiftim@cnaf.infn.it>  Thu, 05 Apr 2017 18:45:00 +0000
+
+

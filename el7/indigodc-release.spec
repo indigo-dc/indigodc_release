@@ -1,6 +1,6 @@
 Name: indigodc-release
-Version: 1.0.0
-Release: 2%{?dist}
+Version: 2.0.0
+Release: 1%{?dist}
 Summary: INDIGO-1 (MidnightBlue) Release
 License: Apache Software License
 Source: %{name}-%{version}.src.tgz
@@ -40,9 +40,9 @@ if [ "$1" = "0" ]; then grep -q -e "indigodc-release" /etc/yum/pluginconf.d/prio
 
 /etc/indigodc-release
 /etc/pki/rpm-gpg/RPM-GPG-KEY-indigodc
-/etc/yum.repos.d/indigo1-base.repo
-/etc/yum.repos.d/indigo1-third-party.repo
-/etc/yum.repos.d/indigo1-updates.repo
+/etc/yum.repos.d/indigo2-base.repo
+/etc/yum.repos.d/indigo2-third-party.repo
+/etc/yum.repos.d/indigo2-updates.repo
 
 %changelog
 * Sun Jul 31 2016 Cristina Aiftimiei <aiftim@cnaf.infn.it>

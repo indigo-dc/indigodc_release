@@ -1,6 +1,6 @@
-[INDIGO-1-base]
-name=INDIGO-1 - Base
-baseurl=http://repo.indigo-datacloud.eu/repository/indigo/1/centos7/$basearch/base
+[INDIGO-2-updates]
+name=INDIGO-2 - Updates
+baseurl=http://repo.indigo-datacloud.eu/repository/indigo/2/centos7/$basearch/updates
 protect=1
 enabled=1
 # To use priorities you must have yum-priorities installed
