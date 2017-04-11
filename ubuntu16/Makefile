@@ -3,8 +3,8 @@ prefix=/
 
 # needed dirs
 debbuild_dir=$(shell pwd)/debbuild
-deb_version=1.0.0
-deb_age=2
+deb_version=2.0.0
+deb_age=1
 here=$(shell pwd)
 
 .PHONY: clean install deb
@@ -23,8 +23,8 @@ install:
 	@mkdir -p $(prefix)/etc/apt/preferences.d
 	@mkdir -p $(prefix)/etc/apt/trusted.gpg.d
 	@install -m 0644 etc/indigodc-release $(prefix)/etc
-	@install -m 0644 etc/apt/sources.list.d/indigo1.list $(prefix)/etc/apt/sources.list.d
-	@install -m 0644 etc/apt/preferences.d/indigo1 $(prefix)/etc/apt/preferences.d
+	@install -m 0644 etc/apt/sources.list.d/indigo2.list $(prefix)/etc/apt/sources.list.d
+	@install -m 0644 etc/apt/preferences.d/indigo2 $(prefix)/etc/apt/preferences.d
 	@install -m 0644 etc/apt/trusted.gpg.d/indigo-dc $(prefix)/etc/apt/trusted.gpg.d
 
 ###########################################################$(DESTDIR)#########

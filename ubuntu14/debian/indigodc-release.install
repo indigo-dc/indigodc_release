@@ -1,4 +1,4 @@
 etc/indigodc-release
-etc/apt/sources.list.d/indigo1.list
-etc/apt/preferences.d/indigo1
+etc/apt/sources.list.d/indigo2.list
+etc/apt/preferences.d/indigo2
 etc/apt/trusted.gpg.d/indigo-dc

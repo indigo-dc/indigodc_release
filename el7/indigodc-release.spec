@@ -1,7 +1,7 @@
 Name: indigodc-release
 Version: 2.0.0
 Release: 1%{?dist}
-Summary: INDIGO-1 (MidnightBlue) Release
+Summary: INDIGO-2 (ElectricIndigo) Release
 License: Apache Software License
 Source: %{name}-%{version}.src.tgz
 Vendor: INDIGO - DataCloud
@@ -14,7 +14,7 @@ BuildRoot: %(mktemp -ud %{_tmppath}/%{name}-%{version}-%{release}-XXXXXX)
 
 
 %description
-INDIGO - DataCloud repository files
+INDIGO - DataCloud repositories files
 
 %prep
 %setup -q
@@ -45,6 +45,6 @@ if [ "$1" = "0" ]; then grep -q -e "indigodc-release" /etc/yum/pluginconf.d/prio
 /etc/yum.repos.d/indigo2-updates.repo
 
 %changelog
-* Sun Jul 31 2016 Cristina Aiftimiei <aiftim@cnaf.infn.it>
+* Tue Apr 11 2017 Cristina Duma <aiftim@cnaf.infn.it>
 - first release
 
