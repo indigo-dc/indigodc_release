@@ -7,7 +7,9 @@ deb_version=2.0.0
 deb_age=1
 here=$(shell pwd)
 
-.PHONY: clean install deb
+.PHONY: install deb
+#.PHONY: clean install deb
+
 
 all: deb
 
@@ -51,6 +53,6 @@ deb-src: prepare-debbuilddir
 deb: deb-src
 	cd $(debbuild_dir)/$(name)-$(deb_version) && debuild -us -uc
 
-clean:
-	@rm -rf $(name)_$(deb_version).orig.tar.gz $(debbuild_dir)
+#clean:
+#	@rm -rf $(name)_$(deb_version).orig.tar.gz $(debbuild_dir)
 
