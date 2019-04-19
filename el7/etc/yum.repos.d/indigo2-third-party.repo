@@ -1,6 +1,6 @@
 [INDIGO-2-third-party]
 name=INDIGO-2 - third-party
-baseurl=http://repo.indigo-datacloud.eu/repository/indigo/2/centos7/$basearch/third-party
+baseurl=https://repo.indigo-datacloud.eu/repository/indigo/2/centos7/$basearch/third-party
 protect=1
 enabled=1
 # To use priorities you must have yum-priorities installed
